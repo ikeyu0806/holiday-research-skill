@@ -8,7 +8,7 @@
 
 | ファイル | 役割 | いつ使うか |
 | --- | --- | --- |
-| `tokyo-day-plan.md` | **その日の都内イベント、展覧会、公開中の映画から休日プランを作る** | 「今日何する」「東京の休日」「都内のイベント」「展覧会」「上映中の映画」「デートプラン」 |
+| `tokyo-private-plan.md` | **仕事終わり、休日、先のプライベート予定を調べる** | 「今夜」「仕事終わり」「休日」「予約しておきたい」「舞台」「お笑い」「テレビ」「ライブ」「フェス」「新しい施設」「展覧会」「映画」 |
 
 出典URLは `references/tokyo-sources.md`。開催情報そのものはファイルに書かない。調べるたびにページを開く。
 
@@ -16,10 +16,12 @@
 
 | ツール | 入口 | 発火 |
 | --- | --- | --- |
-| **Claude Code** | `.claude/skills/tokyo-day-plan/SKILL.md` | description で自動。`/tokyo-day-plan` でも呼べる |
-| **Codex** | `AGENTS.md` と `.agents/skills/tokyo-day-plan/SKILL.md` | 共通ルールは自動。`$tokyo-day-plan` でも呼べる |
-| **Cursor** | `.cursor/commands/tokyo-day-plan.md` | `/tokyo-day-plan` |
-| **Cursor** | `.cursor/skills/tokyo-day-plan/SKILL.md` | description で自動 |
+| **Claude Code** | `.claude/skills/tokyo-private-plan/SKILL.md` | description で自動。`/tokyo-private-plan` でも呼べる |
+| **Codex** | `AGENTS.md` と `.agents/skills/tokyo-private-plan/SKILL.md` | 共通ルールは自動。`$tokyo-private-plan` でも呼べる |
+| **Cursor** | `.cursor/commands/tokyo-private-plan.md` | `/tokyo-private-plan` |
+| **Cursor** | `.cursor/skills/tokyo-private-plan/SKILL.md` | description で自動 |
+
+`/tokyo-day-plan` と `$tokyo-day-plan` は同じ手順への互換用入口。手順は書かず、`tokyo-private-plan.md` を指す。
 
 ## 編集するとき
 

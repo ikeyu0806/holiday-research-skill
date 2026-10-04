@@ -2,7 +2,7 @@
 
 @docs/skills/tokyo-private-plan.md を全文読み、その手順どおりに実行してください。
 
-**手順はこのファイルではなく `docs/skills/tokyo-private-plan.md` が正本です。** `/tokyo-day-plan` も同じ手順です。
+**手順はこのファイルではなく `docs/skills/tokyo-private-plan.md` が正本です。**
 
 - 出典URLは @docs/skills/references/tokyo-sources.md
 - 展覧会、上映、イベント、舞台、お笑い、テレビ、ライブ、料金、休館日、放送日時、予約・発売は、開いたページの文言だけを書く
